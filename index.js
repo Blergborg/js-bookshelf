@@ -20,6 +20,14 @@ Book.prototype.toggleRead = function() {
   this.read = !this.read;
 }
 
+function openForm() {
+  document.querySelector(".popupAddBook").style.display = "block";
+}
+
+function closeForm() {
+  document.querySelector(".popupAddBook").style.display = "none";
+}
+
 function addBookToLibrary() {
 
 }

@@ -29,6 +29,17 @@ header {
   /* display: grid; */
   display: flex;
   gap: 12px;
+
+  padding: 1rem;
+}
+
+.book-card {
+  border: solid 1px black;
+  padding: .5rem;
+}
+
+.popupAddBook {
+  display: none;
 }
 
 footer {
